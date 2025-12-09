@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>会议入口</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+      background: #ffffff;
+      padding: 20px;
+      margin: 0;
+      text-align: center;
+    }
+    h2 {
+      color: #333;
+      margin: 20px 0 30px;
+      font-size: 24px;
+    }
+    .session {
+      margin-bottom: 40px;
+    }
+    .session a {
+      display: inline-block;
+      text-decoration: none;
+      color: inherit;
+    }
+    .session img {
+      width: 90%;
+      max-width: 500px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+    .session img:active {
+      transform: scale(0.98);
+    }
+    .session .label {
+      margin-top: 10px;
+      font-size: 16px;
+      color: #555;
+    }
+    .tip {
+      color: #888;
+      font-size: 14px;
+      margin-top: 30px;
+      padding: 0 20px;
+    }
+  </style>
+</head>
+<body>
+  <h2>2025 学术会议入口</h2>
+
+  <!-- 主会场 -->
+  <div class="session">
+    <a href="https://meeting.tencent.com/s/你的主会场链接">
+      <img src="https://via.placeholder.com/600x300?text=主会场+海报" alt="主会场">
+      <div class="label">主会场 · 9:00 开始</div>
+    </a>
+  </div>
+
+  <!-- 分论坛 -->
+  <div class="session">
+    <a href="https://meeting.tencent.com/s/你的分会场链接">
+      <img src="https://via.placeholder.com/600x300?text=分会场+海报" alt="分会场">
+      <div class="label">分会场 · 14:00 开始</div>
+    </a>
+  </div>
+
+  <p class="tip">⚠️ 点击上方海报即可加入对应会议</p>
+</body>
+</html>
